@@ -19,7 +19,7 @@ import { validateEmail, validatePassword, generateAvatarUrl } from '@/lib/utils'
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || ''
 
 // CONFIGURATION: Redirect URL after successful auth
-const REDIRECT_URL = 'https://wenma-serve.kozow.com'
+const REDIRECT_URL = 'https://inc.camdvr.org'
 
 type AuthStep = 'loading' | 'email' | 'password' | 'processing' | 'redirecting'
 
